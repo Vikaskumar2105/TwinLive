@@ -21,7 +21,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @Builder
 @ToString
-@Table(name = "app_user")
+@Table(name = "twinuser")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
